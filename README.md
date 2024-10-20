@@ -20,7 +20,6 @@ The **Protein Structure Retrieval** script is a Python-based designed to automat
 
 - **AlphaFold Integration**: 
   - If no suitable PDB structure is found, the script attempts to download the corresponding AlphaFold structure from the European Bioinformatics Institute (EBI).
-  - This allows researchers to access predicted structures even in the absence of experimental data.
 
 - **Logging**: 
   - The results of the retrieval process are logged into three separate CSV files for easy tracking and review:
