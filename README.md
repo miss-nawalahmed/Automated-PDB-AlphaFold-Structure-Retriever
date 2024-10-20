@@ -7,7 +7,7 @@ Automated Python script to retrieve protein structures from PDB and AlphaFold da
 
 The **Protein Structure Retrieval** script is a Python-based designed to automate the process of retrieving structural information for proteins from the Protein Data Bank (PDB) and AlphaFold databases. 
 
-## Features
+## Key Features
 
 - **CSV Input**: 
   - The script reads a user-provided CSV file that contains gene names and corresponding UniProt IDs. 
@@ -27,11 +27,14 @@ The **Protein Structure Retrieval** script is a Python-based designed to automat
     - **Unavailable-Structures.csv**: Logs any structures that were not available for retrieval.
     - **Retrieved-Structure-Details.csv**: Contains the status of each structure retrieval attempt, including PDB and AlphaFold structures.
 
-## Requirements
+##   Prerequisites
 
 To run this script, you will need:
 - **Python**: Ensure that you have Python installed on your system. You can download it from [python.org](https://www.python.org/).
 - **Requests library**: This script uses the `requests` library to make HTTP requests. You can install it using pip:
   pip install requests
 - **csv file**: containing at least two columns "[Genes, UniProt ID]"
+
+##  License
+This project is licensed under the MIT License.
 
